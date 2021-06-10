@@ -1,5 +1,5 @@
 <?php
-require('/usr/share/php/smarty/libs/Smarty.class.php');
+require('smarty/libs/Smarty.class.php');
 
 $smarty = new Smarty;
 $smarty->caching = false;
