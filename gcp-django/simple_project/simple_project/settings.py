@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bt$di!z6sc$aw8-&)l0mm))+$u*!&n$&3hnt4wi*pp)ob+mj03
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['steadfast-pivot-316318.ew.r.appspot.com']
 
 
 # Application definition
