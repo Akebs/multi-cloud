@@ -21,3 +21,12 @@ Required local modifications in settings.py are in included folders for each clo
 
     AWS & Azure: The DATABASES object is commented out (using """) so that the app doesn't attempt to use a database at all. To use a database, remove the comments and modify the values as appropriate for your database.
 
+## More info:
+
+Pragmatic AI Labs <a href="https://paiml.com/docs/home/books/cloud-computing-for-data/"> Cloud Computing for Data Analysis </a>
+
+For AWS deployment <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html#python-django-deploy"> Deploying a Django application to Elastic Beanstalk </a>
+
+For MSA deployment <a href="https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-django"> Quickstart: Create a Python app using Azure App Service on Linux </a>
+
+For GCP deployment <a href="https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-django"> MAIN SOURCE </a>
