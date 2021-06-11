@@ -17,6 +17,8 @@ A Django frame is used to generate a simple form view to input integer values an
 
 Required local modifications in settings.py are in included folders for each cloud provider.
 
+## Notes:
+
     AWS & Azure: ALLOWED_HOSTS is set to include the value of the CNAME/WEBSITE_HOSTNAME environment variable, if present. Cloud providers automatically sets this environment variable upon deployment to the app's URL.
 
     AWS & Azure: The DATABASES object is commented out (using """) so that the app doesn't attempt to use a database at all. To use a database, remove the comments and modify the values as appropriate for your database.
@@ -31,4 +33,4 @@ For AWS deployment <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/
 
 For MSA deployment <a href="https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-django"> Quickstart: Create a Python app using Azure App Service on Linux </a>
 
-For GCP deployment <a href="https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-django"> MAIN SOURCE </a>
+For GCP deployment <a href="https://cloud.google.com/python/django"> Getting started with Django </a>
