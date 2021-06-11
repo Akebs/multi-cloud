@@ -28,8 +28,8 @@ Required local modifications in settings.py are in included folders for each clo
 
 Pragmatic AI Labs <a href="https://paiml.com/docs/home/books/cloud-computing-for-data/"> Cloud Computing for Data Analysis </a>
 
-For AWS deployment <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html#python-django-deploy"> Deploying a Django application to Elastic Beanstalk </a>
+AWS deployment <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html#python-django-deploy"> Deploying a Django application to Elastic Beanstalk </a>
 
-For MSA deployment <a href="https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-django"> Quickstart: Create a Python app using Azure App Service on Linux </a>
+MSA deployment <a href="https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-django"> Quickstart: Create a Python app using Azure App Service on Linux </a>
 
-For GCP deployment <a href="https://cloud.google.com/python/django"> Getting started with Django </a>
+GCP deployment <a href="https://cloud.google.com/python/django"> Getting started with Django </a>
