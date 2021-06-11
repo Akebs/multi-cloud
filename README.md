@@ -14,10 +14,9 @@ It also includes a Github Actions workflow to install list, test and format the 
 
 A Django frame is used to generate a simple form view to input integer values and display the add result.
 
+## Notes:
 
 Required local modifications in settings.py are in included folders for each cloud provider.
-
-## Notes:
 
     AWS & Azure: ALLOWED_HOSTS is set to include the value of the CNAME/WEBSITE_HOSTNAME environment variable, if present. Cloud providers automatically sets this environment variable upon deployment to the app's URL.
 
