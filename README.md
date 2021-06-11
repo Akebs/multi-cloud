@@ -1,6 +1,6 @@
 [![Python application test with Github Actions](https://github.com/Akebs/multi-cloud/actions/workflows/main.yml/badge.svg)](https://github.com/Akebs/multi-cloud/actions/workflows/main.yml)
 
-# Cloud Services Testing (AWS,GCP,Azure)
+# Cloud Services Testing (AWS,GCP,MSA)
 
 
 This a Amazon Web Services, Google Cloud Platform and Microsoft Azure implementation of Pragmatic AI Labs tutorial: "1:1 multi cloud onboarding with cloud computing"
