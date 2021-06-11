@@ -22,7 +22,7 @@ Required local modifications in settings.py are in included folders for each clo
 
     AWS & Azure: The DATABASES object is commented out (using """) so that the app doesn't attempt to use a database at all. To use a database, remove the comments and modify the values as appropriate for your database.
     
-    Gcloud: App Engine by default looks for a main.py file at the root of the app directory with a WSGI-compatible object called app. To acomodate this main.py in the root of gcloud django project references the aplication as app.
+    Gcloud: App Engine by default looks for a main.py file at the root of the app directory with a WSGI-compatible object called app. To acomodate this, the file main.py, in the root of the gcloud django project, references the aplication as app.
 
 ## More info:
 
