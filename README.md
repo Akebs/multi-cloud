@@ -9,6 +9,7 @@ This a Amazon Web Services, Google Cloud Platform and Microsoft Azure implementa
 
 
 It creates a python app, in these cloud platforms, that adds two given values.
+
 It also includes a Github Actions workflow to install list, test and format the code. Upon conclusion, it refreshes the execution success badge on top.
 
 A Django frame is used to generate a simple form view to input integer values and display the add result.
