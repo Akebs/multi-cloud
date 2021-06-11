@@ -25,6 +25,8 @@ SECRET_KEY = 'django-insecure-bt$di!z6sc$aw8-&)l0mm))+$u*!&n$&3hnt4wi*pp)ob+mj03
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
+## FOR AWS & Azure include CNAME/WEBSITE_HOSTNAME environment variable in ALLOWED_HOSTS
 ALLOWED_HOSTS = []
 
 
@@ -73,6 +75,8 @@ WSGI_APPLICATION = 'simple_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+
+## For AWS & Azure comment out DATABASES with """
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
